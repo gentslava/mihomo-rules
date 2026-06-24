@@ -1,0 +1,46 @@
+# mihomo custom domains → VPN node
+# Домены, которые гео-блокируют РФ (или DPI-троттлятся) и которых НЕТ
+# в публичных авто-обновляемых списках:
+#   no-russia-hosts / antifilter / itdoginfo / geoblock /
+#   RussiaFancyLists / re:filter / google-ai.
+# Формат: +.домен (суффикс — ловит и поддомены).
+# Подключается в mihomo как rule-provider (behavior: domain).
+
+# --- GitHub (DPI-троттл из РФ, не гео-блок владельцем) ---
++.github.com
++.githubusercontent.com
++.github.io
++.ghcr.io
+
+# --- AI-сервисы (нет в авто-списках) ---
++.perplexity.ai
++.mistral.ai
++.cursor.com
++.huggingface.co
++.poe.com
++.character.ai
++.suno.com
++.replicate.com
++.runwayml.com
++.midjourney.com
++.together.ai
++.fireworks.ai
++.you.com
+
+# --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
++.ookla.com
++.cloudflareinsights.com
++.archive.org
++.sourceforge.net
++.coursera.com
++.booking.com
++.fedex.com
++.mariadb.com
++.ipinfo.io
++.juniper.net
++.synopsys.com
++.rockylinux.org
++.xdaforums.com
++.diagrams.net
++.drawio.com
++.opentext.com
