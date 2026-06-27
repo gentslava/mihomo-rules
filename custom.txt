@@ -44,3 +44,4 @@
 +.diagrams.net
 +.drawio.com
 +.opentext.com
++.vidb365.com
