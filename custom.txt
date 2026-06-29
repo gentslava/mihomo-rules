@@ -26,6 +26,7 @@
 +.together.ai
 +.fireworks.ai
 +.you.com
++.pencil.dev
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
 +.ookla.com
