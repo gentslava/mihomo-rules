@@ -29,6 +29,7 @@
 +.pencil.dev
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
++.csa-iot.org
 +.ookla.com
 +.cloudflareinsights.com
 +.archive.org
