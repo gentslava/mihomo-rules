@@ -30,6 +30,7 @@
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
 +.csa-iot.org
++.mui.com
 +.ookla.com
 +.cloudflareinsights.com
 +.archive.org
