@@ -16,6 +16,8 @@
 +.perplexity.ai
 +.mistral.ai
 +.cursor.com
++.cursor-remote.com
++.mindstudio.ai
 +.huggingface.co
 +.poe.com
 +.character.ai
