@@ -65,6 +65,7 @@
 +.synopsys.com
 +.rockylinux.org
 +.xdaforums.com
++.greasyfork.org
 +.diagrams.net
 +.drawio.com
 +.opentext.com
