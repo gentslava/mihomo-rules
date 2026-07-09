@@ -12,6 +12,15 @@
 +.github.io
 +.ghcr.io
 
+# --- Microsoft Store / app delivery ---
++.apps.microsoft.com
++.store.microsoft.com
++.microsoftstore.com
++.mp.microsoft.com
++.s-microsoft.com
++.windowsupdate.com
++.update.microsoft.com
+
 # --- AI-сервисы (нет в авто-списках) ---
 +.perplexity.ai
 +.mistral.ai
