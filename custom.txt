@@ -12,14 +12,24 @@
 +.github.io
 +.ghcr.io
 
-# --- Microsoft Store / app delivery ---
+# --- Microsoft Store / Windows app delivery ---
 +.apps.microsoft.com
 +.store.microsoft.com
 +.microsoftstore.com
+# Covers displaycatalog, storesdk/livetileedge/storeedgefd.dsx, licensing, delivery.
 +.mp.microsoft.com
++.api.cdp.microsoft.com
++.login.live.com
 +.s-microsoft.com
++.img-prod-cms-rt-microsoft-com.akamaized.net
++.img-s-msn-com.akamaized.net
++.wns.windows.com
++.storequality.microsoft.com
++.devcenter.microsoft.com
++.share.microsoft.com
 +.windowsupdate.com
 +.update.microsoft.com
++.adl.windows.com
 
 # --- AI-сервисы (нет в авто-списках) ---
 +.perplexity.ai
