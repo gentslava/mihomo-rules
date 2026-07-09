@@ -48,6 +48,7 @@
 +.fireworks.ai
 +.you.com
 +.pencil.dev
++.lovable.dev
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
 +.csa-iot.org
