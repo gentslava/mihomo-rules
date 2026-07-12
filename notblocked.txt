@@ -1,13 +1,13 @@
-# Domains verified as reachable directly from the home Russian network.
+# Explicitly approved direct-routing domains.
 # Entries use Mihomo's +. suffix syntax and override third-party proxy providers.
-# Keep this list narrowly scoped; do not add shared API suffixes (for example,
-# googleapis.com) when one product under them may still require a proxy.
+# Do not add a service without an application-level test or an explicit user decision.
+# Never add a shared suffix such as googleapis.com: products under it differ.
 
 # Twitch
 +.twitch.tv
 +.ttvnw.net
 
-# Active Google API hosts verified directly. Keep AI/Vertex endpoints proxied.
+# Google API hosts explicitly approved for DIRECT. Keep AI/Vertex endpoints proxied.
 +.android.googleapis.com
 +.clientservices.googleapis.com
 +.feedback-pa.googleapis.com
@@ -20,17 +20,3 @@
 +.play.googleapis.com
 +.www.googleapis.com
 +.xgapromomanager-pa.googleapis.com
-
-# Active Google web and messaging hosts verified directly.
-+.clients4.google.com
-+.dl.google.com
-+.docs.google.com
-+.messages.google.com
-+.mtalk.google.com
-+.www.google.com
-
-# Other active hosts verified directly.
-+.mobile.events.data.microsoft.com
-+.o278969.ingest.sentry.io
-+.science-output.s3.amazonaws.com
-+.vscode-sync.trafficmanager.net
