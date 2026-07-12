@@ -26,7 +26,6 @@
 +.xgapromomanager-pa.googleapis.com
 
 # Other live domains verified directly.
-+.github.com
 +.grafana.com
 +.hyper-news.vercel.app
 +.mobile.events.data.microsoft.com
