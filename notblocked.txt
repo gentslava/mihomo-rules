@@ -1,0 +1,8 @@
+# Domains verified as reachable directly from the home Russian network.
+# Entries here override third-party proxy providers in Mihomo.
+# Keep this list narrowly scoped; do not add shared API suffixes (for example,
+# googleapis.com) when one product under them may still require a proxy.
+
+# Twitch
+.twitch.tv
+.ttvnw.net
