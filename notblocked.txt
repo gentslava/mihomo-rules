@@ -7,6 +7,11 @@
 +.twitch.tv
 +.ttvnw.net
 
+# Public web applications verified end-to-end without a proxy.
++.www.google.com
++.docs.google.com
++.docs.pencil.dev
+
 # Google API hosts explicitly approved for DIRECT. Keep AI/Vertex endpoints proxied.
 +.android.googleapis.com
 +.clientservices.googleapis.com
