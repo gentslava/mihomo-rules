@@ -30,7 +30,6 @@
 +.www.google.com
 
 # Other active hosts verified directly.
-+.api.pencil.dev
 +.mobile.events.data.microsoft.com
 +.o278969.ingest.sentry.io
 +.science-output.s3.amazonaws.com
