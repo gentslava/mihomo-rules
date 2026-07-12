@@ -6,3 +6,33 @@
 # Twitch
 +.twitch.tv
 +.ttvnw.net
+
+# Active Google API hosts verified directly. Keep AI/Vertex endpoints proxied.
+++.android.googleapis.com
+++.clientservices.googleapis.com
+++.feedback-pa.googleapis.com
+++.firebaselogging-pa.googleapis.com
+++.firebaseinstallations.googleapis.com
+++.firebaseremoteconfig.googleapis.com
+++.fonts.googleapis.com
+++.notifications-pa.googleapis.com
+++.optimizationguide-pa.googleapis.com
+++.play.googleapis.com
+++.www.googleapis.com
+++.xgapromomanager-pa.googleapis.com
+
+# Active Google web and messaging hosts verified directly.
+++.clients4.google.com
+++.dl.google.com
+++.docs.google.com
+++.messages.google.com
+++.mtalk.google.com
+++.www.google.com
+
+# Other active hosts verified directly.
+++.api.pencil.dev
+++.api.telegram.org
+++.mobile.events.data.microsoft.com
+++.o278969.ingest.sentry.io
+++.science-output.s3.amazonaws.com
+++.vscode-sync.trafficmanager.net
