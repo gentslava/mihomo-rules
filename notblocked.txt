@@ -6,3 +6,29 @@
 # Twitch
 .twitch.tv
 .ttvnw.net
+
+# Google services verified directly. Google AI endpoints intentionally stay out:
+# generativelanguage.googleapis.com, aiplatform.googleapis.com, ai.google.dev.
+.accounts.google.com
+.clients4.google.com
+.clientservices.googleapis.com
+.dl.google.com
+.feedback-pa.googleapis.com
+.firebaselogging-pa.googleapis.com
+.firebaseremoteconfig.googleapis.com
+.fonts.googleapis.com
+.mtalk.google.com
+.ogs.google.com
+.optimizationguide-pa.googleapis.com
+.play.googleapis.com
+.www.google.com
+.www.googleapis.com
+.xgapromomanager-pa.googleapis.com
+
+# Other live domains verified directly.
+.github.com
+.grafana.com
+.hyper-news.vercel.app
+.mobile.events.data.microsoft.com
+.rosstrah.youtrack.cloud
+.vscode-sync.trafficmanager.net
