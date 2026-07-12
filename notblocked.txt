@@ -1,34 +1,34 @@
 # Domains verified as reachable directly from the home Russian network.
-# Entries here override third-party proxy providers in Mihomo.
+# Entries use Mihomo's +. suffix syntax and override third-party proxy providers.
 # Keep this list narrowly scoped; do not add shared API suffixes (for example,
 # googleapis.com) when one product under them may still require a proxy.
 
 # Twitch
-.twitch.tv
-.ttvnw.net
++.twitch.tv
++.ttvnw.net
 
 # Google services verified directly. Google AI endpoints intentionally stay out:
 # generativelanguage.googleapis.com, aiplatform.googleapis.com, ai.google.dev.
-.accounts.google.com
-.clients4.google.com
-.clientservices.googleapis.com
-.dl.google.com
-.feedback-pa.googleapis.com
-.firebaselogging-pa.googleapis.com
-.firebaseremoteconfig.googleapis.com
-.fonts.googleapis.com
-.mtalk.google.com
-.ogs.google.com
-.optimizationguide-pa.googleapis.com
-.play.googleapis.com
-.www.google.com
-.www.googleapis.com
-.xgapromomanager-pa.googleapis.com
++.accounts.google.com
++.clients4.google.com
++.clientservices.googleapis.com
++.dl.google.com
++.feedback-pa.googleapis.com
++.firebaselogging-pa.googleapis.com
++.firebaseremoteconfig.googleapis.com
++.fonts.googleapis.com
++.mtalk.google.com
++.ogs.google.com
++.optimizationguide-pa.googleapis.com
++.play.googleapis.com
++.www.google.com
++.www.googleapis.com
++.xgapromomanager-pa.googleapis.com
 
 # Other live domains verified directly.
-.github.com
-.grafana.com
-.hyper-news.vercel.app
-.mobile.events.data.microsoft.com
-.rosstrah.youtrack.cloud
-.vscode-sync.trafficmanager.net
++.github.com
++.grafana.com
++.hyper-news.vercel.app
++.mobile.events.data.microsoft.com
++.rosstrah.youtrack.cloud
++.vscode-sync.trafficmanager.net
