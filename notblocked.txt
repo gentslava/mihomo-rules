@@ -31,7 +31,6 @@
 
 # Other active hosts verified directly.
 +.api.pencil.dev
-+.api.telegram.org
 +.mobile.events.data.microsoft.com
 +.o278969.ingest.sentry.io
 +.science-output.s3.amazonaws.com
