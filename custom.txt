@@ -79,4 +79,3 @@
 +.happ.su
 +.docs.rw
 +.newrelic.com
-+.l10-ourgold.review.ourgold.ru
