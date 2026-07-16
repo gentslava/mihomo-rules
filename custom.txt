@@ -81,4 +81,3 @@
 +.newrelic.com
 +.llm-stats.com
 +.zeroeval.com
-+.releasedesk.dev
