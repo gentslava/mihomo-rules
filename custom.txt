@@ -49,6 +49,7 @@
 +.you.com
 +.pencil.dev
 +.lovable.dev
++.claudeusercontent.com
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
 +.csa-iot.org
