@@ -11,6 +11,7 @@
 +.githubusercontent.com
 +.github.io
 +.ghcr.io
++.shields.io
 
 # --- Microsoft Store / Windows app delivery ---
 +.apps.microsoft.com
