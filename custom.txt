@@ -49,6 +49,7 @@
 +.fireworks.ai
 +.you.com
 +.pencil.dev
++.pen.dev
 +.lovable.dev
 +.claudeusercontent.com
 
