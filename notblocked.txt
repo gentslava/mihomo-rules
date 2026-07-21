@@ -13,6 +13,7 @@
 +.docs.pencil.dev
 +.g.porno365.golf
 +.4pda.to
++.4pda.ws
 
 # Google API hosts explicitly approved for DIRECT. Keep AI/Vertex endpoints proxied.
 +.android.googleapis.com
