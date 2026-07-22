@@ -84,3 +84,4 @@
 +.newrelic.com
 +.llm-stats.com
 +.zeroeval.com
++.opensourcealternatives.to
