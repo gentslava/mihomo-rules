@@ -91,3 +91,5 @@
 +.rocketlawyer.com
 +.qnx.software
 +.qnx.com
++.macked.app
++.appstorrent.ru
