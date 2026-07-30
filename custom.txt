@@ -93,3 +93,4 @@
 +.qnx.com
 +.macked.app
 +.appstorrent.ru
++.kernel.org
