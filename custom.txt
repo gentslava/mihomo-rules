@@ -94,3 +94,4 @@
 +.macked.app
 +.appstorrent.ru
 +.kernel.org
++.tanstack.com
