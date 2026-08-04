@@ -95,3 +95,4 @@
 +.appstorrent.ru
 +.kernel.org
 +.tanstack.com
++.gitea.com
