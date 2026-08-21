@@ -52,6 +52,7 @@
 +.pen.dev
 +.lovable.dev
 +.claudeusercontent.com
++.labs.google
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
 +.csa-iot.org
