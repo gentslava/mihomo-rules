@@ -53,6 +53,7 @@
 +.lovable.dev
 +.claudeusercontent.com
 +.labs.google
++.vowen.ai
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
 +.csa-iot.org
