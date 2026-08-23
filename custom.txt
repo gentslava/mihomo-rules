@@ -54,7 +54,6 @@
 +.claudeusercontent.com
 +.labs.google
 +.vowen.ai
-+.gemini.google.com
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
 +.csa-iot.org
