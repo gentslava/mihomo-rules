@@ -57,6 +57,7 @@
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
 +.csa-iot.org
+++.kz-imei.kz
 +.mui.com
 +.ookla.com
 +.cloudflareinsights.com
