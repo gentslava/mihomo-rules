@@ -48,6 +48,7 @@
 +.together.ai
 +.fireworks.ai
 +.you.com
++.openpencil.dev
 +.pencil.dev
 +.pen.dev
 +.lovable.dev
