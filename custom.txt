@@ -106,3 +106,4 @@
 +.4cdn.org
 +.reactbits.dev
 +.neuro.ee
++.typeform.com
