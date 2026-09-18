@@ -55,6 +55,7 @@
 +.claudeusercontent.com
 +.labs.google
 +.vowen.ai
++.nousresearch.com
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
 +.csa-iot.org
