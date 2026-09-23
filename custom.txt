@@ -58,6 +58,7 @@
 +.nousresearch.com
 +.hermes-agent.ai
 +.artificialanalysis.ai
++.commandcode.ai
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
 +.csa-iot.org
