@@ -113,3 +113,4 @@
 +.typeform.com
 +.xpro5.org
 +.nothingarchive.tech
++.docker.com
