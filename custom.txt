@@ -114,3 +114,4 @@
 +.xpro5.org
 +.nothingarchive.tech
 +.docker.com
++.warp.dev
