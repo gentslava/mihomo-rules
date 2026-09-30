@@ -116,3 +116,4 @@
 +.docker.com
 +.warp.dev
 +.theins.ru
++.trycap.dev
