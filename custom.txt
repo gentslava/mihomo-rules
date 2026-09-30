@@ -115,3 +115,4 @@
 +.nothingarchive.tech
 +.docker.com
 +.warp.dev
++.theins.ru
