@@ -117,3 +117,4 @@
 +.warp.dev
 +.theins.ru
 +.trycap.dev
++.skillry.dev
