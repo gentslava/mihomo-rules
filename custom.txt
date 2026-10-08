@@ -120,3 +120,4 @@
 +.skillry.dev
 +.plane.so
 +.gonewx.com
++.holycode.cloud
