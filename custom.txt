@@ -119,3 +119,4 @@
 +.trycap.dev
 +.skillry.dev
 +.plane.so
++.gonewx.com
