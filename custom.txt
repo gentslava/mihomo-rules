@@ -122,3 +122,4 @@
 +.gonewx.com
 +.holycode.cloud
 +.paseo.sh
++.kandev.ai
