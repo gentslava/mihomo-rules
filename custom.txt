@@ -121,3 +121,4 @@
 +.plane.so
 +.gonewx.com
 +.holycode.cloud
++.paseo.sh
