@@ -124,3 +124,4 @@
 +.paseo.sh
 +.kandev.ai
 +.uptimekuma.co
++.lennysnewsletter.com
