@@ -123,3 +123,4 @@
 +.holycode.cloud
 +.paseo.sh
 +.kandev.ai
++.uptimekuma.co
