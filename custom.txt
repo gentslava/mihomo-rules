@@ -126,3 +126,4 @@
 +.kandev.ai
 +.uptimekuma.co
 +.lennysnewsletter.com
++.dokploy.com
