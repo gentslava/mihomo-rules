@@ -128,3 +128,4 @@
 +.lennysnewsletter.com
 +.dokploy.com
 +.imaginstudio.com
++.xevil.net
