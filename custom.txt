@@ -131,3 +131,4 @@
 +.xevil.net
 +.herdr.dev
 +.onorca.dev
++.maxtokens.ai
