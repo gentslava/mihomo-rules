@@ -129,3 +129,4 @@
 +.dokploy.com
 +.imaginstudio.com
 +.xevil.net
++.herdr.dev
