@@ -132,3 +132,4 @@
 +.herdr.dev
 +.onorca.dev
 +.maxtokens.ai
++.superset.sh
