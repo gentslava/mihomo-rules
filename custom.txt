@@ -135,3 +135,4 @@
 +.superset.sh
 +.conductor.build
 +.linux.do
++.exa.ai
