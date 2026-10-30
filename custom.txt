@@ -74,6 +74,7 @@
 ++.kz-imei.kz
 +.mui.com
 +.ookla.com
++.cloudflare.com
 +.cloudflareinsights.com
 +.archive.org
 +.sourceforge.net
