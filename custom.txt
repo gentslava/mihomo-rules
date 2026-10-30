@@ -32,6 +32,12 @@
 +.update.microsoft.com
 +.adl.windows.com
 
+# --- Postman (app, authentication, sync, WebSocket) ---
++.postman.com
++.postman.co
++.getpostman.com
++.pstmn.io
+
 # --- AI-сервисы (нет в авто-списках) ---
 +.perplexity.ai
 +.mistral.ai
