@@ -137,3 +137,4 @@
 +.linux.do
 +.exa.ai
 +.tavily.com
++.npmjs.org
