@@ -1,148 +1,197 @@
-# mihomo custom domains → VPN node
-# Домены, которые гео-блокируют РФ (или DPI-троттлятся) и которых НЕТ
-# в публичных авто-обновляемых списках:
-#   no-russia-hosts / antifilter / itdoginfo / geoblock /
-#   RussiaFancyLists / re:filter / google-ai.
-# Формат: +.домен (суффикс — ловит и поддомены).
-# Подключается в mihomo как rule-provider (behavior: domain).
+# Пользовательские домены для маршрутизации через PROXY (VPN).
+# Дополнение к внешним спискам: ручные правила, геоблокировки и DPI.
+# Формат: +.example.com — домен и все его поддомены (behavior: domain).
+# Разделы служат для навигации; порядок строк не задает приоритет маршрутов.
+# Внутри каждого раздела записи отсортированы по доменному имени.
+# Новые домены добавлять в подходящий раздел вместе с зависимостями сервиса.
+# Точные поддомены не расширять до общего домена без отдельной проверки.
+# Домены для прямого доступа ведутся отдельно в notblocked.txt.
 
-# --- GitHub (DPI-троттл из РФ, не гео-блок владельцем) ---
-+.github.com
-+.githubusercontent.com
-+.github.io
+# --- Git-хостинги, пакеты и зависимости ---
+# Репозитории, контейнерные образы, npm, статические ресурсы и бейджи.
 +.ghcr.io
++.gitea.com
++.github.com
++.github.io
++.githubusercontent.com
++.npmjs.org
 +.shields.io
++.sourceforge.net
 
-# --- Microsoft Store / Windows app delivery ---
-+.apps.microsoft.com
-+.store.microsoft.com
-+.microsoftstore.com
-# Covers displaycatalog, storesdk/livetileedge/storeedgefd.dsx, licensing, delivery.
-+.mp.microsoft.com
+# --- Microsoft: Store, Windows и доставка приложений ---
+# Каталог магазина, лицензирование, учетная запись, CDN и обновления.
+# Сохранены точные поддомены: не заменять их на весь microsoft.com / live.com.
++.adl.windows.com
 +.api.cdp.microsoft.com
-+.login.live.com
-+.s-microsoft.com
++.apps.microsoft.com
++.devcenter.microsoft.com
 +.img-prod-cms-rt-microsoft-com.akamaized.net
 +.img-s-msn-com.akamaized.net
-+.wns.windows.com
-+.storequality.microsoft.com
-+.devcenter.microsoft.com
++.login.live.com
++.microsoftstore.com
++.mp.microsoft.com
++.s-microsoft.com
 +.share.microsoft.com
-+.windowsupdate.com
++.store.microsoft.com
++.storequality.microsoft.com
 +.update.microsoft.com
-+.adl.windows.com
++.windowsupdate.com
++.wns.windows.com
 
-# --- Postman (app, authentication, sync, WebSocket) ---
-+.postman.com
-+.postman.co
-+.getpostman.com
-+.pstmn.io
-
-# --- AI-сервисы (нет в авто-списках) ---
-+.perplexity.ai
-+.mistral.ai
-+.cursor.com
-+.cursor-remote.com
-+.mindstudio.ai
-+.huggingface.co
-+.poe.com
-+.character.ai
-+.suno.com
-+.replicate.com
-+.runwayml.com
-+.midjourney.com
-+.together.ai
-+.fireworks.ai
-+.you.com
-+.openpencil.dev
-+.pencil.dev
-+.pen.dev
-+.lovable.dev
-+.claudeusercontent.com
-+.labs.google
-+.vowen.ai
-+.nousresearch.com
-+.hermes-agent.ai
-+.artificialanalysis.ai
-+.commandcode.ai
-+.typesafe.ai
-+.exa.ai
-+.coderabbit.ai
-
-# --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
-+.csa-iot.org
-++.kz-imei.kz
-+.mui.com
-+.ookla.com
+# --- Cloudflare: общие веб-зависимости ---
+# Включает challenges.cloudflare.com (Turnstile) и cdnjs.cloudflare.com.
+# Это доменные правила, а не перевод всех IP-сетей Cloudflare на VPN.
 +.cloudflare.com
 +.cloudflareinsights.com
-+.archive.org
-+.sourceforge.net
-+.coursera.com
-+.booking.com
-+.fedex.com
-+.mariadb.com
-+.ipinfo.io
-+.juniper.net
-+.synopsys.com
-+.rockylinux.org
-+.xdaforums.com
-+.greasyfork.org
-+.diagrams.net
-+.drawio.com
-+.opentext.com
-+.vanced.to
-+.vidb365.com
-+.boobsbits.com
-+.onlyfans.com
-+.habr.com
-+.graphify.net
-+.pageview.app
-+.happ.su
-+.docs.rw
-+.newrelic.com
+
+# --- Postman: приложение, авторизация и синхронизация ---
+# Все четыре суффикса нужны для веб-ресурсов, API и WebSocket-шлюзов.
++.getpostman.com
++.postman.co
++.postman.com
++.pstmn.io
+
+# --- ИИ: модели, поиск, платформы и артефакты ---
+# Чат-сервисы, поиск, доступ к моделям и платформы для работы с ними.
+# claudeusercontent.com обслуживает пользовательские артефакты Claude.
++.character.ai
++.claudeusercontent.com
++.exa.ai
++.fireworks.ai
++.hermes-agent.ai
++.huggingface.co
++.labs.google
++.mindstudio.ai
++.mistral.ai
++.nousresearch.com
++.perplexity.ai
++.poe.com
++.replicate.com
++.tavily.com
++.together.ai
++.vowen.ai
++.you.com
+
+# --- ИИ: разработка, агенты и рабочие среды ---
+# IDE, код-ревью, агентные инструменты, облачные среды и прототипирование.
+# pen.dev и pencil.dev сохранены как связанные, но отдельные суффиксы.
++.coderabbit.ai
++.commandcode.ai
++.conductor.build
++.cursor-remote.com
++.cursor.com
++.gonewx.com
++.herdr.dev
++.holycode.cloud
++.kandev.ai
++.lovable.dev
++.onorca.dev
++.openpencil.dev
++.paseo.sh
++.pen.dev
++.pencil.dev
++.skillry.dev
++.superset.sh
++.typesafe.ai
++.warp.dev
+
+# --- ИИ: сравнение и оценка моделей ---
+# Каталоги, метрики и инструменты оценки; zeroeval.com включает api.zeroeval.com.
++.artificialanalysis.ai
 +.llm-stats.com
 +.zeroeval.com
-+.opensourcealternatives.to
-+.startwithidentity.com
-+.evolution-x.org
+
+# --- Изображения, музыка и видео ---
+# Генерация и получение медиаресурсов, включая автомобильные изображения IMAGIN.
++.imaginstudio.com
++.midjourney.com
 +.nanobanana.io
-+.rocketlawyer.com
-+.qnx.software
++.runwayml.com
++.suno.com
+
+# --- Разработка, библиотеки и корпоративное ПО ---
+# Контейнеры, деплой, базы данных, UI-библиотеки и прикладные SaaS-инструменты.
++.docker.com
++.dokploy.com
++.mariadb.com
++.mui.com
++.opensourcealternatives.to
++.opentext.com
++.plane.so
 +.qnx.com
-+.macked.app
-+.appstorrent.ru
-+.kernel.org
++.qnx.software
++.reactbits.dev
++.synopsys.com
 +.tanstack.com
-+.gitea.com
++.typeform.com
+
+# --- Диаграммы и визуализация ---
+# Редакторы схем и инструменты работы с графами.
++.diagrams.net
++.drawio.com
++.graphify.net
+
+# --- Мониторинг, аналитика и диагностика сети ---
+# Наблюдаемость приложений, веб-аналитика, сведения об IP и сетевые проверки.
++.ipinfo.io
++.newrelic.com
++.ookla.com
++.pageview.app
++.uptimekuma.co
+
+# --- ОС, приложения и прошивки ---
+# Дистрибутивы, ядро, пользовательские приложения, расширения и прошивки устройств.
++.appstorrent.ru
++.evolution-x.org
++.greasyfork.org
++.kernel.org
++.macked.app
++.nothingarchive.tech
++.rockylinux.org
++.vanced.to
++.xdaforums.com
+
+# --- VPN и документация ---
+# Документация Remnawave и клиент Happ; их текущая маршрутизация сохранена.
++.docs.rw
++.happ.su
+
+# --- Устройства, стандарты и активация ---
+# IoT, сетевое оборудование, регистрация IMEI и автомобильная диагностика.
++.csa-iot.org
++.juniper.net
++.kz-imei.kz
++.xpro5.org
+
+# --- CAPTCHA и антибот-инструменты ---
+# Отдельные сервисы работы с CAPTCHA, не общие CDN-зависимости.
++.trycap.dev
++.xevil.net
+
+# --- Сообщества, публикации и обучение ---
+# Форумы, архивы, курсы, технические публикации и новости.
+# 4cdn.org — медиаресурсы экосистемы 4chan / 4channel.
++.4cdn.org
 +.4chan.org
 +.4channel.org
-+.4cdn.org
-+.reactbits.dev
-+.neuro.ee
-+.typeform.com
-+.xpro5.org
-+.nothingarchive.tech
-+.docker.com
-+.warp.dev
-+.theins.ru
-+.trycap.dev
-+.skillry.dev
-+.plane.so
-+.gonewx.com
-+.holycode.cloud
-+.paseo.sh
-+.kandev.ai
-+.uptimekuma.co
++.archive.org
++.coursera.com
++.habr.com
 +.lennysnewsletter.com
-+.dokploy.com
-+.imaginstudio.com
-+.xevil.net
-+.herdr.dev
-+.onorca.dev
-+.maxtokens.ai
-+.superset.sh
-+.conductor.build
 +.linux.do
-+.tavily.com
-+.npmjs.org
++.maxtokens.ai
++.neuro.ee
++.startwithidentity.com
++.theins.ru
+
+# --- Путешествия, доставка и правовые сервисы ---
+# Пользовательские сервисы бронирования, логистики и юридических документов.
++.booking.com
++.fedex.com
++.rocketlawyer.com
+
+# --- Контент 18+ и подписочные площадки ---
+# Основные домены и их поддомены; сторонние CDN сюда автоматически не включаются.
++.boobsbits.com
++.onlyfans.com
++.vidb365.com
