@@ -60,6 +60,8 @@
 +.artificialanalysis.ai
 +.commandcode.ai
 +.typesafe.ai
++.exa.ai
++.coderabbit.ai
 
 # --- Прочее (гео-блок / нишевое, нет в авто-списках) ---
 +.csa-iot.org
@@ -135,6 +137,5 @@
 +.superset.sh
 +.conductor.build
 +.linux.do
-+.exa.ai
 +.tavily.com
 +.npmjs.org
