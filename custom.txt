@@ -113,6 +113,7 @@
 # Контейнеры, деплой, базы данных, UI-библиотеки и прикладные SaaS-инструменты.
 +.docker.com
 +.dokploy.com
++.jscpd.dev
 +.mariadb.com
 +.mui.com
 +.opensourcealternatives.to
