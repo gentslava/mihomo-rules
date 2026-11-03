@@ -137,6 +137,7 @@
 +.newrelic.com
 +.ookla.com
 +.pageview.app
++.sentry.io
 +.uptimekuma.co
 
 # --- ОС, приложения и прошивки ---
