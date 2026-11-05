@@ -115,6 +115,7 @@
 # Контейнеры, деплой, базы данных, UI-библиотеки и прикладные SaaS-инструменты.
 +.docker.com
 +.dokploy.com
++.gitkraken.dev
 +.jscpd.dev
 +.mariadb.com
 +.mui.com
