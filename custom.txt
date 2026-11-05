@@ -107,7 +107,9 @@
 +.midjourney.com
 +.nanobanana.io
 +.runwayml.com
++.seeklogo.com
 +.suno.com
++.zonalogo.com
 
 # --- Разработка, библиотеки и корпоративное ПО ---
 # Контейнеры, деплой, базы данных, UI-библиотеки и прикладные SaaS-инструменты.
