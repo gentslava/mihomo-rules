@@ -119,6 +119,7 @@
 +.jscpd.dev
 +.mariadb.com
 +.mui.com
++.novu.co
 +.opensourcealternatives.to
 +.opentext.com
 +.plane.so
