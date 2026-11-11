@@ -16,6 +16,7 @@
 +.githubusercontent.com
 +.launchpadcontent.net
 +.npmjs.org
++.pythonhosted.org
 +.shields.io
 +.sourceforge.net
 
