@@ -26,5 +26,6 @@
 +.notifications-pa.googleapis.com
 +.optimizationguide-pa.googleapis.com
 +.play.googleapis.com
++.storage.googleapis.com
 +.www.googleapis.com
 +.xgapromomanager-pa.googleapis.com
