@@ -127,6 +127,7 @@
 +.plane.so
 +.qnx.com
 +.qnx.software
++.rea.tools
 +.reactbits.dev
 +.synopsys.com
 +.tanstack.com
