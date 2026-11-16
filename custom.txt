@@ -56,6 +56,7 @@
 # --- ИИ: модели, поиск, платформы и артефакты ---
 # Чат-сервисы, поиск, доступ к моделям и платформы для работы с ними.
 # claudeusercontent.com обслуживает пользовательские артефакты Claude.
++.anthropic.com
 +.character.ai
 +.claudeusercontent.com
 +.exa.ai
