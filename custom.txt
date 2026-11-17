@@ -89,6 +89,7 @@
 +.kandev.ai
 +.lovable.dev
 +.onorca.dev
++.open-design.ai
 +.openpencil.dev
 +.paseo.sh
 +.pen.dev
