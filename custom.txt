@@ -177,6 +177,7 @@
 
 # --- CAPTCHA и антибот-инструменты ---
 # Отдельные сервисы работы с CAPTCHA, не общие CDN-зависимости.
++.privatecaptcha.com
 +.trycap.dev
 +.xevil.net
 
