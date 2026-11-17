@@ -194,6 +194,7 @@
 +.lennysnewsletter.com
 +.linux.do
 +.maxtokens.ai
++.mychooz.com
 +.neuro.ee
 +.startwithidentity.com
 +.theins.ru
