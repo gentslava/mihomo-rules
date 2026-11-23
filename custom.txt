@@ -121,6 +121,7 @@
 +.dokploy.com
 +.gitkraken.dev
 +.jscpd.dev
++.livekit.io
 +.mariadb.com
 +.mui.com
 +.novu.co
